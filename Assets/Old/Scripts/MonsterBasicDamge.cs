@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterBasicDamage : MonoBehaviour
+public class MonsterBasicDamge : MonoBehaviour
 {
     public int damage;
     public PlayerHealth playerHealth;
