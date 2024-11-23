@@ -18,8 +18,8 @@ public class NPC : MonoBehaviour
         if(collision.tag == Structs.Tags.playerTag)
         {
             _talkIcon.SetActive(true);
-            collision.GetComponent<PlayerDialogue>().CopyDialogue(dialogue);
-            collision.GetComponent<PlayerDialogue>().SetCanSpeak(true);
+            collision.GetComponent<NewPlayerDialogue>().CopyDialogue(dialogue);
+            collision.GetComponent<NewPlayerDialogue>().SetCanSpeak(true);
         }
     }
 
@@ -28,7 +28,7 @@ public class NPC : MonoBehaviour
         if (collision.tag == Structs.Tags.playerTag)
         {
             _talkIcon.SetActive(false);
-            collision.GetComponent<PlayerDialogue>().SetCanSpeak(false);
+            collision.GetComponent<NewPlayerDialogue>().SetCanSpeak(false);
         }
     }
 
