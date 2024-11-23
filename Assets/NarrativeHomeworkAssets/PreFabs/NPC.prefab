@@ -129,12 +129,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7159296443536290887}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 420759cf998b9bf4ea3bc3b74501074f, type: 3}
+  m_Script: {fileID: 11500000, guid: ff6c1b1829c7be2448d8d8e741e4464d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-  - Hi
-  - Nerd
+  dialogue: []
 --- !u!61 &8160873800085650376
 BoxCollider2D:
   m_ObjectHideFlags: 0
